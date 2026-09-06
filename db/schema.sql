@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS todoapi;
+USE todoapi;
+
 DROP TABLE IF EXISTS tasks;
 
 CREATE TABLE tasks (
